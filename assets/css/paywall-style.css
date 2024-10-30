@@ -1,0 +1,82 @@
+.paywall-message {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+.paywall-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.paywall-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.paywall-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.paywall-step {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.micropayments-paywall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paywall-message {
+    margin-bottom: 20px;
+}
+
+.paywall-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micropayments-paywall-button {
+    margin-top: 10px;
+}
+
+/* New and updated styles */
+.paywall-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.micropayments-paywall-button.first-button {
+    margin-bottom: 1.5rem;  /* Add more space below the first button, using rem units */
+}
+
+.center-text {
+    display: block;  /* make it block level */
+    text-align: center;  /* center the text */
+}
+
+.micropayments-paywall-button.center-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Explicitly set the margin-bottom for both headers */
+.buy-post-section h4,
+.all-access-section h4 {
+    margin-bottom: 1rem; /* You can adjust this value */
+}
